@@ -2,13 +2,25 @@ import React, { Component } from "react"
 import "./style.css"
 
 class RegistrationForm extends Component {
+  constructor() {
+    super()
+
+    this.title = ''
+  }
+
+  handleChangeTitle(event) {
+    this.title = event.target.value
+    console.log(this.title)
+  }
+
   render() {
     return (
-      <form className="registration-form">
+      <form className="registration-form" onSubmit={() => {}}>
         <input
           type="text"
           placeholder="Title"
           className="registration-form_input"
+          onChange={this.handleChangeTitle.bind(this)}
         />
         <textarea
           rows={15}
