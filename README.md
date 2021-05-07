@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was to understand how the library works on React.
-This App is a notes manager and it was developed based on the course: https://cursos.alura.com.br/course/react-js (in Portuguese)
+This App is a notes manager and it was developed based on the course: https://cursos.alura.com.br/course/react-js (in Portuguese-BR)
 
 ## Available Scripts
 
