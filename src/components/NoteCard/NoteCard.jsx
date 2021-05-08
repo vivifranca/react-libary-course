@@ -10,7 +10,7 @@ class NoteCard extends Component {
         </header>
         <p className='note-card_text'>{this.props.text}</p>
       </section>
-    );
+    )
   }
 }
 

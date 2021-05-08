@@ -21,7 +21,7 @@ class App extends Component {
 
   render () {
     return (
-      <section className="content">
+      <section className='content'>
         <RegistrationForm addNote={this.addNote.bind(this)}/>
         <ListNotes notes={this.state.notes}/>
       </section>
